@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="mailbox">
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="example@gmail.com" minlength="8"> 
+            <p class="mailresult res"></p>
+        </div>
+
+        <div class="passwordbox">
+            <label for="password">Password:</label>
+            <input type="password" id="password">
+            <button class="passwordshow">
+                <img src="images/eyeicon19.svg" alt="eye" class="eye">
+            </button>
+            <p class="passresult res"></p>
+        </div>
+
+        <div class="resultbox">
+            <button class="checkmail">Confirm</button>
+        </div>
+
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
